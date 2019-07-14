@@ -1,0 +1,33 @@
+.home{
+  /*position: absolute;
+  left: 300px;
+  top: 60px;
+  right: 0;*/
+  .box{
+    display: block;
+    height: 130px;
+    text-align: center;
+    opacity: 0.8;
+    transition: all 0.3s linear;
+    &:hover{
+      transform: scale(1.1,1.1);
+      opacity: 0.9;
+    }
+    h3{
+      line-height: 50px;
+      font-size: 30px;
+    }
+    p{
+      line-height: 40px;
+    }
+  }
+  .box-user{
+    background: rebeccapurple;
+  }
+  .box-product{
+    background: #4d9946;
+  }
+  .box-order{
+    background: #993a36;
+  }
+}

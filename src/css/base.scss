@@ -1,0 +1,21 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    ul{
+        list-style: none;
+    }
+    a,
+    a:hover{
+        text-decoration: none;
+        color: black;
+    }
+    .container{
+        background-color: cyan;
+        height: calc(100vh);
+        position: relative;
+        overflow: auto;
+        padding-top: 60px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

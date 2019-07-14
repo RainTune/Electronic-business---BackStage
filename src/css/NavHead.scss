@@ -1,0 +1,56 @@
+.navHead{
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  .headWrapper{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    .collapsed{
+      line-height: 30px;
+    }
+    >div{
+      height: 100%;
+    }
+    .navbar{
+      .dropdown:hover>.dropdown-menu{
+        display: block;
+        min-width: 100px;
+      }
+      .navbar-header{
+        height: 60px;
+        .collapsed{
+          margin-top: 12px;
+        }
+      }
+      a{
+        line-height: 30px;
+        color: #ccc;
+      }
+    }
+    .navbar-default{
+      background: #ff11bb;
+    }
+  }
+}
+
+
+@media (min-width:768px) {
+  .headWrapper{
+    width: 750px!important;
+  }
+}
+@media (min-width: 992px) {
+  .headWrapper{
+    width: 970px!important;
+  }
+}
+@media (min-width: 1200px) {
+  .headWrapper{
+    width: 1170px!important;
+  }
+}

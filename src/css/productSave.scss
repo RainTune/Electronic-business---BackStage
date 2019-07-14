@@ -1,0 +1,25 @@
+.loadZone{
+  .imgBox{
+    display: inline-block;
+    height: 80px;
+    border: 1px solid cyan;
+    margin-right: 10px;
+    position: relative;
+    &:hover>i{
+      display: block;
+      cursor: pointer;
+    }
+    img{
+      height: 100%;
+      display: block;
+    }
+    i{
+      position: absolute;
+      right: 0;
+      top: 0;
+      font-size: 24px;
+      background-color: rgba(0,0,0,0.2);
+      display: none;
+    }
+  }
+}
